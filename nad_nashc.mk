@@ -30,6 +30,9 @@ NAD_BUILD_TYPE := OFFICIAL
 TARGET_USES_BLUR := true
 USE_GAPPS ?= true
 
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := nad_nashc
 PRODUCT_DEVICE := nashc
 PRODUCT_MANUFACTURER := realme
