@@ -22,9 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/nashc/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_nashc
+# nad bring up
+TARGET_BOOT_ANIMATION_RES := 1080
+NAD_BUILD_TYPE := OFFICIAL
+TARGET_USES_BLUR := true
+
+PRODUCT_NAME := nad_nashc
 PRODUCT_DEVICE := nashc
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
