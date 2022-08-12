@@ -33,6 +33,10 @@ USE_GAPPS ?= true
 # Enable quick tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Enable FOD
+TARGET_FOD_ANIMATIONS := true
+EXTRA_FOD_ANIMATIONS := true
+
 PRODUCT_NAME := nad_nashc
 PRODUCT_DEVICE := nashc
 PRODUCT_MANUFACTURER := realme
