@@ -383,5 +383,7 @@
     
     <!-- Whether to cancel fingerprint operation if not idle -->
     <bool name="config_fpCancelIfNotIdle">true</bool>
+    
+    <bool name="config_pulseOnFingerDown">true</bool>
 
 </resources>
